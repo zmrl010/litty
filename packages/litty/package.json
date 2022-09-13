@@ -1,10 +1,12 @@
 {
-  "dependencies": {
-    "lit": "^2.3.1"
-  },
-  "description": "litty web components",
+  "author": "zmrl",
+  "description": "litty web component library",
   "devDependencies": {
+    "@litty/components": "workspace:*",
+    "@litty/style": "workspace:*",
+    "sass": "^1.54.9",
     "typescript": "^4.8.3",
+    "vite": "^3.1.0",
     "vitest": "^0.23.2"
   },
   "exports": {
@@ -14,9 +16,10 @@
     "dist",
     "src"
   ],
+  "keywords": [],
   "license": "MIT",
   "main": "dist/index.js",
-  "name": "@litty/components",
+  "name": "litty",
   "scripts": {
     "build": "tsc -b",
     "test": "vitest"

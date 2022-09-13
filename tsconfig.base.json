@@ -15,6 +15,7 @@
     "noUnusedParameters": true,
     "skipLibCheck": true,
     "strict": true,
-    "useDefineForClassFields": false
+    "useDefineForClassFields": false,
+    "types": ["vitest"]
   }
 }

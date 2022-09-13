@@ -1,7 +1,4 @@
 {
   "extends": "./tsconfig.base.json",
-  "compilerOptions": {
-    "outDir": "types"
-  },
-  "include": ["packages/**/*.ts", "playground/**/*.ts"]
+  "include": ["packages/**/*.ts", "playground/**/*.ts", "vitest.config.ts"]
 }

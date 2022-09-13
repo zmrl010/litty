@@ -4,6 +4,6 @@
     "vite": "^3.1.0",
     "vitest": "^0.23.2"
   },
-  "name": "demo",
+  "name": "litty-basic-demo",
   "version": "0.1.0"
 }
