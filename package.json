@@ -21,7 +21,6 @@
     "eslint": "^8.23.1",
     "prettier": "^2.7.1",
     "typescript": "^4.8.3",
-    "@litty/eslint-config": "workspace:*",
-    "@litty/tsconfig": "workspace:*"
+    "@zmrl/eslint-config": "^3.3.0"
   }
 }

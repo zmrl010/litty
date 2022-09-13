@@ -3,13 +3,9 @@
  */
 module.exports = {
   root: true,
-  extends: ["@litty"],
-  overrides: [
-    {
-      files: "**/*.ts(x)?",
-      parserOptions: {
-        project: ["./tsconfig.lint.json"],
-      },
-    },
-  ],
+  extends: ["@zmrl", "@zmrl/eslint-config/lit"],
+  parserOptions: {
+    project: "./tsconfig.lint.json",
+    sourceType: "module",
+  },
 };

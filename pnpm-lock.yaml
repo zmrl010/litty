@@ -4,60 +4,51 @@ importers:
 
   .:
     specifiers:
-      '@litty/eslint-config': workspace:*
-      '@litty/tsconfig': workspace:*
+      '@zmrl/eslint-config': ^3.3.0
       eslint: ^8.23.1
       prettier: ^2.7.1
       typescript: ^4.8.3
     devDependencies:
-      '@litty/eslint-config': link:utils/eslint-config
-      '@litty/tsconfig': link:utils/tsconfig
+      '@zmrl/eslint-config': 3.3.0_irgkl5vooow2ydyo6aokmferha
       eslint: 8.23.1
       prettier: 2.7.1
       typescript: 4.8.3
 
   packages/components:
     specifiers:
-      '@litty/eslint-config': workspace:*
-      '@litty/tsconfig': workspace:*
-      '@zmrl/eslint-config': ^3.2.0
-      eslint: ^8.23.0
       lit: ^2.3.1
-      prettier: ^2.7.1
       typescript: ^4.8.3
       vite: ^3.1.0
       vitest: ^0.23.2
     dependencies:
       lit: 2.3.1
     devDependencies:
-      '@litty/eslint-config': link:../../utils/eslint-config
-      '@litty/tsconfig': link:../../utils/tsconfig
-      '@zmrl/eslint-config': 3.3.0_irgkl5vooow2ydyo6aokmferha
-      eslint: 8.23.1
-      prettier: 2.7.1
       typescript: 4.8.3
       vite: 3.1.0
       vitest: 0.23.2
 
-  utils/eslint-config:
+  packages/core:
     specifiers:
-      '@zmrl/eslint-config': ^3.3.0
-      eslint: ^8.23.1
-      typescript: 4.8.3
+      lit: ^2.3.1
+      typescript: ^4.8.3
+      vite: ^3.1.0
+      vitest: ^0.23.2
+    dependencies:
+      lit: 2.3.1
     devDependencies:
-      '@zmrl/eslint-config': 3.3.0_irgkl5vooow2ydyo6aokmferha
-      eslint: 8.23.1
       typescript: 4.8.3
+      vite: 3.1.0
+      vitest: 0.23.2
 
-  utils/tsconfig:
+  playground/demo:
     specifiers:
-      '@zmrl/eslint-config': ^3.3.0
-      eslint: ^8.23.1
-      typescript: 4.8.3
+      typescript: ^4.8.3
+      vite: ^3.1.0
+      vitest: ^0.23.2
     devDependencies:
-      '@zmrl/eslint-config': 3.3.0_irgkl5vooow2ydyo6aokmferha
-      eslint: 8.23.1
       typescript: 4.8.3
+      vite: 3.1.0
+      vitest: 0.23.2
 
 packages:
 
