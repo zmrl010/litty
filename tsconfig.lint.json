@@ -1,0 +1,7 @@
+{
+  "extends": "@litty/tsconfig",
+  "compilerOptions": {
+    "outDir": "types"
+  },
+  "include": ["**/src/**/*.ts"]
+}

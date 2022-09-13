@@ -1,0 +1,27 @@
+{
+  "name": "litty",
+  "description": "Simple, customizable and accessible web component library made with Lit",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/index.es.js",
+  "exports": {
+    ".": "./dist/index.es.js"
+  },
+  "types": "types/index.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.3",
+    "@litty/eslint-config": "workspace:*",
+    "@litty/tsconfig": "workspace:*"
+  }
+}

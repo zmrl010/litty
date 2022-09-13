@@ -1,0 +1,10 @@
+{
+  "extends": "@litty/tsconfig",
+  "compilerOptions": {
+    "emitDeclarationOnly": true,
+    "experimentalDecorators": true,
+    "outDir": "./types"
+  },
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
