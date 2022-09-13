@@ -1,0 +1,28 @@
+{
+  "author": "zmrl",
+  "description": "litty style system and utils",
+  "devDependencies": {
+    "sass": "^1.54.9",
+    "typescript": "^4.8.3"
+  },
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "types"
+  ],
+  "keywords": [],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "@litty/style",
+  "private": true,
+  "scripts": {
+    "build": "tsc && vite build",
+    "dev": "vite"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "types": "types/index.d.ts",
+  "version": "0.1.0"
+}
