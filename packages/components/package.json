@@ -23,6 +23,7 @@
     "build": "tsc && vite build",
     "dev": "vite"
   },
+  "sideEffects": false,
   "type": "module",
   "types": "types/index.d.ts",
   "version": "0.1.0"
