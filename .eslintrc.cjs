@@ -8,4 +8,5 @@ module.exports = {
     project: "./tsconfig.lint.json",
     sourceType: "module",
   },
+  ignorePatterns: ["dist", "node_modules"],
 };
