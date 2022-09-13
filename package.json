@@ -11,17 +11,20 @@
   "types": "types/index.d.ts",
   "files": [
     "dist",
-    "types"
+    "types",
+    "src"
   ],
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build"
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "pnpm -r --if-present build",
+    "test": "pnpm -r test"
   },
-  "sideEffects": false,
   "devDependencies": {
     "eslint": "^8.23.1",
     "prettier": "^2.7.1",
     "typescript": "^4.8.3",
-    "@zmrl/eslint-config": "^3.3.0"
+    "@zmrl/eslint-config": "^3.3.0",
+    "vitest": "^0.23.2",
+    "pnpm": "^7.11.0"
   }
 }
