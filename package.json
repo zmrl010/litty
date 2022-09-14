@@ -4,19 +4,10 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "main": "dist/index.es.js",
-  "exports": {
-    ".": "./dist/index.es.js"
-  },
-  "types": "types/index.d.ts",
-  "files": [
-    "dist",
-    "types",
-    "src"
-  ],
   "scripts": {
+    "build:packages": "pnpm -r --filter ./packages/ --if-present build",
     "preinstall": "npx only-allow pnpm",
-    "prepare": "pnpm -r --if-present build",
+    "prepare": "pnpm build:packages",
     "test": "pnpm -r test"
   },
   "devDependencies": {
