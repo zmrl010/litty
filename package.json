@@ -1,6 +1,6 @@
 {
   "name": "litty",
-  "description": "Simple, customizable and accessible web component library made with Lit",
+  "description": "Simple and accessible web component library made with Lit",
   "private": true,
   "version": "0.1.0",
   "type": "module",
