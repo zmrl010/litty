@@ -2,7 +2,7 @@
   "author": "zmrl",
   "description": "litty web component library",
   "devDependencies": {
-    "@litty/components": "workspace:*",
+    "@litty/core": "workspace:*",
     "@litty/style": "workspace:*",
     "sass": "^1.54.9",
     "typescript": "^4.8.3",

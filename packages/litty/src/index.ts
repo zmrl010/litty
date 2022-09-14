@@ -1,1 +1,1 @@
-export * from "@litty/components";
+export * from "@litty/core";

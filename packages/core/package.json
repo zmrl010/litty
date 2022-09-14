@@ -2,7 +2,7 @@
   "dependencies": {
     "lit": "^2.3.1"
   },
-  "description": "litty web components",
+  "description": "litty core web components",
   "devDependencies": {
     "typescript": "^4.8.3",
     "vitest": "^0.23.2"
@@ -16,7 +16,7 @@
   ],
   "license": "MIT",
   "main": "dist/index.js",
-  "name": "@litty/components",
+  "name": "@litty/core",
   "scripts": {
     "build": "tsc -b",
     "test": "vitest"
