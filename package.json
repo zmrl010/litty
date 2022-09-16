@@ -5,9 +5,9 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "build:packages": "pnpm -r -F \"./packages/*\" --if-present build",
+    "build": "pnpm -F './packages/**' --if-present build",
     "preinstall": "npx only-allow pnpm",
-    "prepare": "pnpm build:packages",
+    "prepare": "pnpm build",
     "test": "pnpm -r test"
   },
   "devDependencies": {
